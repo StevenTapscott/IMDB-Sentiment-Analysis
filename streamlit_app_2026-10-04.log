@@ -1,0 +1,23 @@
+2026-10-04 19:43:24,768 - INFO - Attempting to load sentiment analysis model...
+2026-10-04 19:43:25,202 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-04 19:43:25,394 - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-10-04 19:43:25,404 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 19:43:26,319 - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 19:43:26,635 - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 19:43:26,826 - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 19:43:27,029 - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 19:43:27,238 - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 19:43:27,467 - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 19:43:27,646 - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 19:44:39,465 - INFO - Rate limit window reset.
+2026-10-04 19:44:39,739 - INFO - Request count: 1/10
+2026-10-04 19:44:39,740 - INFO - [ANALYSIS_SUCCESS] Sentiment analysis completed. Label: POSITIVE, Score: 0.9999, Input length: 40 chars.
+2026-10-04 19:45:01,171 - INFO - Request count: 2/10
+2026-10-04 19:45:01,172 - INFO - [ANALYSIS_SUCCESS] Sentiment analysis completed. Label: POSITIVE, Score: 0.9986, Input length: 49 chars.
+2026-10-04 19:45:18,963 - INFO - Request count: 3/10
+2026-10-04 19:45:18,964 - INFO - [ANALYSIS_SUCCESS] Sentiment analysis completed. Label: POSITIVE, Score: 0.9999, Input length: 40 chars.
+2026-10-04 19:45:34,627 - INFO - Request count: 4/10
+2026-10-04 19:45:34,627 - INFO - [ANALYSIS_SUCCESS] Sentiment analysis completed. Label: NEGATIVE, Score: 0.9998, Input length: 28 chars.
+2026-10-04 19:45:52,428 - INFO - Rate limit window reset.
+2026-10-04 19:45:52,656 - INFO - Request count: 1/10
+2026-10-04 19:45:52,657 - INFO - [ANALYSIS_SUCCESS] Sentiment analysis completed. Label: NEGATIVE, Score: 0.9876, Input length: 30 chars.

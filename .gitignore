@@ -1,0 +1,8 @@
+venu/ 
+__pycache__/ 
+*.pyc 
+.env 
+*.egg-info 
+fine_tuned_sentiment_model/ 
+*.safetensors 
+*.bin 
