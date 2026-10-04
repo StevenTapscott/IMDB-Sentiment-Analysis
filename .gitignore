@@ -1,3 +1,5 @@
+# Fine-tuned model weights
+fine_tuned_sentiment_model/model.safetensors
 # Visual Studio
 .vs/
 
