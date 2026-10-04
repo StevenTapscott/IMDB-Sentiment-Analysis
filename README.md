@@ -345,12 +345,13 @@ The project produced several important findings:
 
 ```text
 sentiment-analysis-project/
-├── data/                         # Training/fine-tuning data
+├── data/                        # Training/fine-tuning data
 ├── fine_tuned_sentiment_model/  # Saved fine-tuned model
 ├── sentiment_analyser.py        # Base model evaluation/testing
 ├── sentiment_analyser-finetuned.py
 ├── sentiment_app.py             # Streamlit application
 ├── requirements.txt             # Python dependencies
+├── screenshots                  # Screenshots
 └── README.md
 ```
 
