@@ -339,25 +339,6 @@ The project produced several important findings:
 10. **Deployment changes the nature of the project.**  
     Building the Streamlit interface demonstrates how an NLP model can move from experimentation and evaluation into a usable application.
 
----
-
-## Project Structure
-
-```text
-sentiment-analysis-project/
-├── data/                        # Training/fine-tuning data
-├── fine_tuned_sentiment_model/  # Saved fine-tuned model
-├── sentiment_analyser.py        # Base model evaluation/testing
-├── sentiment_analyser-finetuned.py
-├── sentiment_app.py             # Streamlit application
-├── requirements.txt             # Python dependencies
-├── screenshots                  # Screenshots
-└── README.md
-```
-
-> Update the structure above if the final repository uses different filenames.
-
----
 
 ## Installation
 
